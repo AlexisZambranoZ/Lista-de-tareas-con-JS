@@ -1,0 +1,133 @@
+html{
+    
+ background: linear-gradient(to right, #141e30, #243B55);         
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(239, 245, 245);
+    background: linear-gradient(to right, #141e30, #243B55);  
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    color: #000;
+    font-size: 150%;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    margin-left: 5px ;
+    text-align: center;
+    
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 13%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(210, 22, 28);
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+  
+  .empty {
+    color: darkslategrey;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 500px){
+    
+    html{
+        background-color: aqua;
+    }
+
+    .container{
+        
+        width: 75%;
+    }
+
+    .search{
+        width: 100%;
+        margin: 0 auto;
+
+
+    }
+
+  
+  }
